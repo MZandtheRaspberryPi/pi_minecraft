@@ -1,5 +1,6 @@
 # pi_minecraft
-A repo with links to guides to setup your own minecraft server on your pi, so that you can play with friends.
+A repo with links to guides to setup your own minecraft server on your pi, so that you can play with friends.    
+![minecraft](./minecraft.png)
 
 The main guide I followed is linked [here](https://jamesachambers.com/raspberry-pi-minecraft-server-script-with-startup-service/). This fellow did a lot of work to figure out parameters for the minecraft server as well as various minecraft server versions to use to optimize minecraft. This will work best with a Pi 4 but also with a 3b+ or higher.
 
