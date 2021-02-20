@@ -1,7 +1,7 @@
 # pi_minecraft
 A repo with links to guides to setup your own minecraft server on your pi
 
-The main guide I followed is linked (here)[https://jamesachambers.com/raspberry-pi-minecraft-server-script-with-startup-service/]. This fellow did a lot of work to figure out parameters for the minecraft server as well as various minecraft server versions to use to optimize minecraft. This will work best with a Pi 3b+ or higher.
+The main guide I followed is linked [here](https://jamesachambers.com/raspberry-pi-minecraft-server-script-with-startup-service/). This fellow did a lot of work to figure out parameters for the minecraft server as well as various minecraft server versions to use to optimize minecraft. This will work best with a Pi 3b+ or higher.
 
 Note the startup script, start.sh, will check and try to download the specified version each time it is launched. This can take a fair amount of time, so you can comment out this and only uncomment it when you change the version and want to upgrade.
 
