@@ -18,5 +18,5 @@ else
     --mail-from 'camminecraftserver@gmail.com' \
     --mail-rcpt 'ziegltrum@gmail.com' \
     --user "camminecraftserver@gmail.com:$password" \
-    -T <(echo -e "From: camminecraftserver@gmail.com\nTo: ziegltrum@gmail.com\nSubject: MC IP: $ip_address\n\nHello,\nThe ip address for Cam's minecraft serv$
+    -T <(echo -e "From: camminecraftserver@gmail.com\nTo: ziegltrum@gmail.com\nSubject: MC IP: $ip_address\n\nHello,\nThe ip address for Cam's minecraft serv$")
 fi
