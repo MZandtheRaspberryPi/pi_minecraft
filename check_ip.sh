@@ -1,6 +1,6 @@
 #!/bin/bash
 
-file_path="/home/mikey/Documents/ip_address.txt"
+file_path="/home/<user>/miner/ip_address.txt"
 
 password=$1
 ip_address=$(wget -qO- http://ipecho.net/plain)
