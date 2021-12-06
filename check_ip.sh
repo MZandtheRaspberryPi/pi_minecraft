@@ -12,7 +12,7 @@ old_ip_address=$(cat $file_path)
 if [[ $old_ip_address == $ip_address ]]; then
   exit 0
 else
-  echo "$ip_address" >>$file_path
+  echo "$ip_address" > $file_path
 
 curl --url 'smtps://smtp.gmail.com:465' --ssl-reqd \
   --mail-from 'camminecraftserver@gmail.com' \
